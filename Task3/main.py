@@ -28,32 +28,3 @@ app.add_handler(CommandHandler("intxt", log.export_logging_journal_txt))
 app.add_handler(CommandHandler("inmessage", log.export_logging_journal_message))
 
 app.run_polling()
-
-
-
-
-
-
-
-    
-
-
-
-# elif user_input == '3':
-#     print('Choose a view format: HTML - 1, CSV.file - 2, terminal - 3')
-#     next_input = c.check_input_3()
-
-#     if next_input == '1':
-#         hp.create_html()
-#     elif next_input == '2':
-#         cp.create_csv()
-#     else:
-#         print(*(dd.show_phonebook()))
-
-# else:
-#     print('Choose a view format: CSV.file - 1, terminal - 2')
-#     next_input = c.check_input_2()
-#     if next_input == '1':
-#         log.log_output_data_csv()
-#     else:
-#         log.log_output_data_term()
